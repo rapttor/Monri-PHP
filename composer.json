@@ -1,5 +1,5 @@
 {
-  "name": "monri/php",
+  "name": "rapttor/monri-php",
   "description": "Monri PHP SDK",
   "type": "library",
   "require-dev": {
