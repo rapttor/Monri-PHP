@@ -1,0 +1,40 @@
+{
+  "name": "monri/php",
+  "description": "Monri PHP SDK",
+  "type": "library",
+  "require-dev": {
+    "friendsofphp/php-cs-fixer": "*",
+    "phpunit/phpunit": "9.5.24",
+    "php-coveralls/php-coveralls": "2.5.3",
+    "squizlabs/php_codesniffer": "^3.7"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Monri\\": "src/Monri/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Monri\\Tests\\": "tests/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jasmin Suljic",
+      "email": "jasmin.suljich@gmail.com"
+    },
+    {
+      "name": "RapTToR",
+      "email": "rapttor@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.3",
+    "ext-ctype": "*",
+    "ext-curl": "*",
+    "ext-json": "*",
+    "ext-mbstring": "*",
+    "ext-openssl": "*"
+  }
+}
